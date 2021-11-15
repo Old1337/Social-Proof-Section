@@ -56,8 +56,6 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 /* Small */
 @media (min-width: 768px) {
@@ -84,6 +82,8 @@ main.container {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 @media (max-width: 767px) {
   main.container {
@@ -173,8 +173,9 @@ h1 {
 }
 article.container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 30px;
+  padding-bottom: 100px;
 }
 article .box {
   display: flex;
